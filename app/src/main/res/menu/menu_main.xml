@@ -1,0 +1,74 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.acco.MainActivity">
+    <item
+        android:id="@+id/signOut"
+        android:orderInCategory="100"
+        android:title="@string/my_signin"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/inici"
+        android:orderInCategory="100"
+        android:title="INICI"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/serveis"
+        android:orderInCategory="100"
+        android:title="@string/serveis"
+        app:showAsAction="never" >
+            <menu>
+                <item
+                    android:id="@+id/observatori"
+                    android:title="Observatori Industrial"
+                    />
+
+                <item
+                    android:id="@+id/orietlaboral"
+                    android:title="Orientació Laboral"
+                    />
+                <item
+                    android:id="@+id/consol"
+                    android:title="Consolidació empresarial"
+                    />
+                <item
+                    android:id="@+id/turisme"
+                    android:title="Turisme"
+                    />
+
+            </menu>
+    </item>
+
+    <item
+        android:id="@+id/adl"
+        android:orderInCategory="100"
+        android:title="@string/adl"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/events"
+        android:orderInCategory="100"
+        android:title="@string/events"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/empleo"
+        android:orderInCategory="100"
+        android:title="@string/empleo"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/personal"
+        android:orderInCategory="100"
+        android:title="@string/personal"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/orientacio"
+        android:orderInCategory="100"
+        android:title="@string/orientacio"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/myNotifications"
+        android:orderInCategory="100"
+        android:title="@string/orientacio"
+        app:showAsAction="never" />
+
+</menu>
