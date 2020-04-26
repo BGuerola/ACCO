@@ -21,20 +21,19 @@
             <menu>
                 <item
                     android:id="@+id/observatori"
-                    android:title="Observatori Industrial"
+                    android:title="Eines informàtiques i teletreball"
                     />
-
                 <item
                     android:id="@+id/orietlaboral"
-                    android:title="Orientació Laboral"
+                    android:title="Ocupació, orientació i recursos"
                     />
                 <item
                     android:id="@+id/consol"
-                    android:title="Consolidació empresarial"
+                    android:title="Informació autónoms i empreses"
                     />
                 <item
                     android:id="@+id/turisme"
-                    android:title="Turisme"
+                    android:title="Assesorament en plans d'igualtat"
                     />
 
             </menu>
@@ -51,11 +50,6 @@
         android:title="@string/events"
         app:showAsAction="never" />
     <item
-        android:id="@+id/empleo"
-        android:orderInCategory="100"
-        android:title="@string/empleo"
-        app:showAsAction="never" />
-    <item
         android:id="@+id/personal"
         android:orderInCategory="100"
         android:title="@string/personal"
@@ -66,9 +60,8 @@
         android:title="@string/orientacio"
         app:showAsAction="never" />
     <item
-        android:id="@+id/myNotifications"
+        android:id="@+id/videotutorials"
         android:orderInCategory="100"
-        android:title="@string/orientacio"
+        android:title="@string/videotutoriales"
         app:showAsAction="never" />
-
 </menu>

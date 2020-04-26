@@ -9,23 +9,15 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import android.view.View;
-import android.webkit.WebView;
-import android.webkit.WebViewClient;
 
-public class OrientActivity extends MainMenu {
+public class VTActivity extends MainMenu {
 
-    WebView navegador;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_orient);
+        setContentView(R.layout.activity_v_t);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
-        navegador = findViewById(R.id.weborient);
-        navegador.setWebViewClient(new WebViewClient());
-        navegador.getSettings().setJavaScriptEnabled(true);
-        navegador.loadUrl("https://sites.google.com/view/covid-19-empleo/inicio");
 
     }
 

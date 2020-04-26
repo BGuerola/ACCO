@@ -25,7 +25,7 @@ public class ConsolActivity extends MainMenu {
         navegador = findViewById(R.id.webconsol);
         navegador.setWebViewClient(new WebViewClient());
         navegador.getSettings().setJavaScriptEnabled(true);
-        navegador.loadUrl("https://torrent.portaldelcomerciante.com/");
+        navegador.loadUrl("https://sites.google.com/view/mhs-covid19-empresasautonomos/inicio");
 
     }
 

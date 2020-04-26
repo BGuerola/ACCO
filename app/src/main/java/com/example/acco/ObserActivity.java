@@ -26,7 +26,7 @@ public class ObserActivity extends MainMenu {
         navegador = findViewById(R.id.webobserv);
         navegador.setWebViewClient(new WebViewClient());
         navegador.getSettings().setJavaScriptEnabled(true);
-        navegador.loadUrl("https://observatorimarinaalta.org/observatori-socioeconomico-maercado-laboral-estadistico-marina-alta/");
+        navegador.loadUrl("https://sites.google.com/view/mhs-covid-19/inicio");
 
     }
 

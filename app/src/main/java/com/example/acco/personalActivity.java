@@ -10,7 +10,7 @@ import androidx.appcompat.widget.Toolbar;
 
 import android.view.View;
 
-public class personalActivity extends AppCompatActivity {
+public class personalActivity extends MainMenu {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

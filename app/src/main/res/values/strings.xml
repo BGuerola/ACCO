@@ -5,12 +5,12 @@
     <string name="adl">ADL MUNICIPIS</string>
     <string name="events">AGENDA EVENTS</string>
     <string name="empleo">Averigua la teua empleabilitat</string>
-    <string name="personal">El meu espai</string>
-    <string name="orientacio">Orientació Laboral</string>
-    <string name="title_activity_obser">Observatori Industrial</string>
-    <string name="title_activity_orient">Orientació laboral</string>
-    <string name="title_activity_consol">Consollidació empresarial</string>
-    <string name="title_activity_turisme">Turisme</string>
+    <string name="personal">COMUNICACIONS</string>
+    <string name="orientacio">ORIENTACIÓ LABORAL</string>
+    <string name="title_activity_obser">Eines Informàtiques i teletreball</string>
+    <string name="title_activity_orient">Ocupació, orientació i recursos</string>
+    <string name="title_activity_consol">Informació autonoms i empresa</string>
+    <string name="title_activity_turisme">Igualtat</string>
     <string name="title_activity_aedl">Aedl de la comarca</string>
     <string name="title_activity_events">Events Comarcals</string>
     <string name="title_activity_signin">Autenticació</string>
@@ -18,10 +18,17 @@
     <string name="firebase_status_fmt">detail</string>
     <string name="signed_out">usuari no vàlid</string>
     <string name="my_signin">Sign Out</string>
-    <string name="title_activity_personal">El meu espai</string>
-    <string name="title_activity_my_notifications">MyNotificationsActivity</string>
-    <string name="get_registration_token">Get token button %s</string>
-    <string name="title_activity_my_whats_app">MyWhatsAppActivity</string>
-    <string name="get_token_button">get_token_botó</string>
+    <string name="title_activity_personal">COMUNICACIONS</string>
+    <string name="title_activity_my_whats_app">El meu Xat</string>
     <string name="news_channel">new_channel</string>
+    <string name="title_activity_v_t">VIDEOTUTORIALES</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="videotutoriales">VIDEOTUTORIALES</string>
 </resources>

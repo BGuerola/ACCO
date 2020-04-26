@@ -73,13 +73,14 @@ public class MainMenu extends AppCompatActivity {
             startActivity(intent);
         }
 
-        if (id == R.id.myNotifications) {
-            Intent intent = new Intent(this, MyNotificationsActivity.class);
+        if (id == R.id.signOut) {
+            Intent intent = new Intent(this, SigninActivity.class);
             startActivity(intent);
             return true;
         }
-        if (id == R.id.signOut) {
-            Intent intent = new Intent(this, SigninActivity.class);
+
+        if (id == R.id.videotutorials) {
+            Intent intent = new Intent(this, VTActivity.class);
             startActivity(intent);
             return true;
         }

@@ -25,7 +25,7 @@ public class TurismeActivity extends MainMenu {
         navegador = findViewById(R.id.webturisme);
         navegador.setWebViewClient(new WebViewClient());
         navegador.getSettings().setJavaScriptEnabled(true);
-        navegador.loadUrl("https://www.valenciaturisme.org/es/municipio/page/21/");
+        navegador.loadUrl("http://www.mancohortasud.es/serveis/unitat-digualtat/assessorament-en-plans-digualtat");
 
     }
 

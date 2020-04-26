@@ -12,19 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".VTActivity"
+            android:label="@string/title_activity_v_t"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
             android:name=".MyWhatsAppActivity"
             android:label="@string/title_activity_my_whats_app"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-
-        <service android:name=".MyFirebaseMessagingService">
-            <intent-filter>
-                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-            </intent-filter>
-        </service>
-
-        <activity
-            android:name=".MyNotificationsActivity"
-            android:label="@string/title_activity_my_notifications"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".personalActivity"
